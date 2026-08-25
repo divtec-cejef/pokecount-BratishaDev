@@ -5,4 +5,9 @@
  * @since 2024-01-31 (Date de création)
  */
 
+"use strict";
+
 console.log("Bonjour à tous!")
+
+let compteur = 0;
+const compteurEl = document.getElementById("compteur-el");
