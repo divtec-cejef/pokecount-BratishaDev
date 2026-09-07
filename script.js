@@ -35,3 +35,8 @@ function sauvegarder() {
     compteurEl.textContent = compteur;
 }
 
+const capturerBtn = document.getElementById("capturer-btn");
+const sauvegarderBtn = document.getElementById("sauvegarder-btn");
+capturerBtn.addEventListener("click", capturer);
+sauvegarderBtn.addEventListener("click", sauvegarder);
+
