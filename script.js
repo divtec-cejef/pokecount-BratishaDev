@@ -14,3 +14,10 @@ document.getElementById("compteur-el").textContent = 100;
  */
 let compteur = 0;
 const compteurEl = document.getElementById("compteur-el");
+
+function capturer() {
+    compteur += 1;
+    compteurEl.textContent = compteur;
+}
+
+
