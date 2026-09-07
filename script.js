@@ -6,8 +6,11 @@
  */
 
 "use strict";
-
+/*
 console.log("Bonjour à tous!")
-
+alert("Hello World");
+document.querySelector("h2").textContent = 20;
+document.getElementById("compteur-el").textContent = 100;
+ */
 let compteur = 0;
 const compteurEl = document.getElementById("compteur-el");
