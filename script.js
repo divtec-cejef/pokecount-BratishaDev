@@ -18,6 +18,13 @@ const compteurEl = document.getElementById("compteur-el");
 function capturer() {
     compteur += 1;
     compteurEl.textContent = compteur;
+    if (compteur < 5) {
+        compteurEl.style.color = "green";
+    } else if (compteur < 10) {
+        compteurEl.style.color = "yellow";
+    } else {
+        compteurEl.style.color = "red";
+    }
 }
 
 
