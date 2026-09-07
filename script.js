@@ -41,3 +41,7 @@ const sauvegarderBtn = document.getElementById("sauvegarder-btn");
 capturerBtn.addEventListener("click", capturer);
 sauvegarderBtn.addEventListener("click", sauvegarder);
 
+window.addEventListener("load", () => { // Attendre que la page soit chargée pour exécuter le code
+    sauvegardeEl.innerHTML = localStorage.getItem("captures") || ""; // Charger les captures sauvegardées ou une chaîne vide
+});
+
