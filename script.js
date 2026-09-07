@@ -27,4 +27,11 @@ function capturer() {
     }
 }
 
+const sauvegardeEl = document.getElementById("sauvegarde-el");
+function sauvegarder() {
+    let compteurStr = "<li>" + compteur + " Pokémons</li>";
+    sauvegardeEl.innerHTML += compteurStr; // Ajouter la valeur actuelle du compteur
+    compteur = 0;
+    compteurEl.textContent = compteur;
+}
 
